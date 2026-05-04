@@ -1,0 +1,51 @@
+# Geotechnicalengineering — Saskatoon
+
+> Geotechnical engineering services in Saskatoon, Canada.
+
+## Services
+- [Anchors](https://saskatoon.geotechnicalengineering.xyz/anchors/)
+- [Atterberg Limits](https://saskatoon.geotechnicalengineering.xyz/atterberg-limits/)
+- [Cbr Road](https://saskatoon.geotechnicalengineering.xyz/cbr-road/)
+- [Cpt Test](https://saskatoon.geotechnicalengineering.xyz/cpt-test/)
+- [Deep Excavations](https://saskatoon.geotechnicalengineering.xyz/deep-excavations/)
+- [Excavation Monitoring](https://saskatoon.geotechnicalengineering.xyz/excavation-monitoring/)
+- [Excavations](https://saskatoon.geotechnicalengineering.xyz/excavations/)
+- [Flexible Pavement](https://saskatoon.geotechnicalengineering.xyz/flexible-pavement/)
+- [Footings](https://saskatoon.geotechnicalengineering.xyz/footings/)
+- [Foundations](https://saskatoon.geotechnicalengineering.xyz/foundations/)
+- [Grain Size](https://saskatoon.geotechnicalengineering.xyz/grain-size/)
+- [Ground Improvement](https://saskatoon.geotechnicalengineering.xyz/ground-improvement/)
+- [Grouting](https://saskatoon.geotechnicalengineering.xyz/grouting/)
+- [In Situ Permeability](https://saskatoon.geotechnicalengineering.xyz/in-situ-permeability/)
+- [Investigation](https://saskatoon.geotechnicalengineering.xyz/investigation/)
+- [Lab In Situ](https://saskatoon.geotechnicalengineering.xyz/lab-in-situ/)
+- [Laboratory](https://saskatoon.geotechnicalengineering.xyz/laboratory/)
+- [Liquefaction](https://saskatoon.geotechnicalengineering.xyz/liquefaction/)
+- [Masw](https://saskatoon.geotechnicalengineering.xyz/masw/)
+- [Mat Foundations](https://saskatoon.geotechnicalengineering.xyz/mat-foundations/)
+- [Piles](https://saskatoon.geotechnicalengineering.xyz/piles/)
+- [Proctor Tests](https://saskatoon.geotechnicalengineering.xyz/proctor-tests/)
+- [Resistivity](https://saskatoon.geotechnicalengineering.xyz/resistivity/)
+- [Retaining Walls](https://saskatoon.geotechnicalengineering.xyz/retaining-walls/)
+- [Rigid Pavement](https://saskatoon.geotechnicalengineering.xyz/rigid-pavement/)
+- [Road Geotechnics](https://saskatoon.geotechnicalengineering.xyz/road-geotechnics/)
+- [Sand Cone Density](https://saskatoon.geotechnicalengineering.xyz/sand-cone-density/)
+- [Seismic](https://saskatoon.geotechnicalengineering.xyz/seismic/)
+- [Seismic Isolation](https://saskatoon.geotechnicalengineering.xyz/seismic-isolation/)
+- [Seismic Microzonation](https://saskatoon.geotechnicalengineering.xyz/seismic-microzonation/)
+- [Seismic Refraction](https://saskatoon.geotechnicalengineering.xyz/seismic-refraction/)
+- [Slope Stability](https://saskatoon.geotechnicalengineering.xyz/slope-stability/)
+- [Slopes](https://saskatoon.geotechnicalengineering.xyz/slopes/)
+- [Soft Ground Tunnels](https://saskatoon.geotechnicalengineering.xyz/soft-ground-tunnels/)
+- [Spt Drilling](https://saskatoon.geotechnicalengineering.xyz/spt-drilling/)
+- [Stone Columns](https://saskatoon.geotechnicalengineering.xyz/stone-columns/)
+- [Test Pits](https://saskatoon.geotechnicalengineering.xyz/test-pits/)
+- [Triaxial](https://saskatoon.geotechnicalengineering.xyz/triaxial/)
+- [Vibrocompaction](https://saskatoon.geotechnicalengineering.xyz/vibrocompaction/)
+
+## Contact
+- Website: https://saskatoon.geotechnicalengineering.xyz/
+
+## About
+This site provides geotechnical engineering services in Saskatoon, Canada.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).

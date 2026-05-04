@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electrical Resistivity and VES Surveys in Saskatoon</title>
+<meta name="description" content="Electrical resistivity testing and vertical electrical sounding in Saskatoon. We map stratigraphy, locate aquifers, and define soil corrosivity for...">
+<link rel="canonical" href="https://saskatoon.geotechnicalengineering.xyz/resistivity/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Electrical Resistivity and VES Surveys in Saskatoon">
+<meta property="og:description" content="Electrical resistivity testing and vertical electrical sounding in Saskatoon. We map stratigraphy, locate aquifers, and define soil corrosivity for...">
+<meta property="og:url" content="https://saskatoon.geotechnicalengineering.xyz/resistivity/">
+<meta property="og:site_name" content="Geotechnicalengineering">
+<meta property="og:image" content="https://saskatoon.geotechnicalengineering.xyz/img/resistividad-electrica-sev-1.webp">
+<meta property="og:locale" content="en_CA">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Electrical Resistivity and VES Surveys in Saskatoon">
+<meta name="twitter:description" content="Electrical resistivity testing and vertical electrical sounding in Saskatoon. We map stratigraphy, locate aquifers, and define soil corrosivity for...">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Electrical Resistivity and VES Surveys in Saskatoon"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Electrical Resistivity and VES Surveys in Saskatoon", "description": "Electrical resistivity testing and vertical electrical sounding in Saskatoon. We map stratigraphy, locate aquifers, and define soil corrosivity for foundation design on glacial lake deposits.", "areaServed": {"@type": "City", "name": "Saskatoon"}, "provider": {"@type": "LocalBusiness", "name": "Geotechnicalengineering", "email": "contact@geotechnicalengineering.xyz", "telephone": "", "address": {"@type": "PostalAddress", "addressLocality": "Saskatoon", "addressCountry": "CA"}}, "url": "https://saskatoon.geotechnicalengineering.xyz/resistivity"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How deep can a VES survey investigate in Saskatoon's glacial soils?", "acceptedAnswer": {"@type": "Answer", "text": "With a Schlumberger array and a maximum AB/2 spacing of 120 m, we reliably reach 70 to 80 m depth in the clay tills south of the river. The practical limit depends on site dimensions, because you need 3 to 5 times the target depth in clear linear space. In tight urban lots we cap investigation at about 25 m using Wenner arrays."}}, {"@type": "Question", "name": "What does an electrical resistivity survey cost for a typical Saskatoon building site?", "acceptedAnswer": {"@type": "Answer", "text": "For a standard VES survey with 3 to 5 soundings across a residential or small commercial lot, budgets range from CA$910 to CA$1,440 depending on array type, number of expansion points, and whether we need to clear vegetation or work around buried utilities."}}, {"@type": "Question", "name": "How do you calibrate resistivity data to actual soil types?", "acceptedAnswer": {"@type": "Answer", "text": "We tie every survey to at least one calibration point, preferably a borehole or test pit with logged stratigraphy. The resistivity values are then correlated to grain size and moisture content using the site-specific relationship, rather than applying generic ranges from the literature, which can be off by 50% in Saskatoon's mixed tills."}}, {"@type": "Question", "name": "Does frozen ground affect the resistivity readings?", "acceptedAnswer": {"@type": "Answer", "text": "Significantly. Ice is a poor conductor, so frozen surface silts can read above 200 ohm-m while the same material at 10°C reads 25 ohm-m. We run surveys between May and October whenever possible. If a winter survey is unavoidable, we use deeper electrode burial below the frost line and apply temperature correction factors per ASTM G57."}}, {"@type": "Question", "name": "What deliverables do you provide after the survey?", "acceptedAnswer": {"@type": "Answer", "text": "The standard package includes raw apparent resistivity data in digital format, inverted 2D resistivity sections with RMS error statistics, a multi-layer soil model for grounding design, and a technical memo summarizing interpreted stratigraphy and corrosivity classification. We can also provide native RES2DINV files if your engineer wants to run alternative inversions."}}]}</script>
+<style>
+:root {
+    --primary: #8B5CF6;
+    --accent: #A78BFA;
+    --dark: #09090B;
+    --bg: #FAFAFA;
+    --text: #18181B;
+    --font-h: 'Cormorant Garamond', 'Segoe UI', sans-serif;
+    --font-b: 'Nunito', 'Segoe UI', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+a { color: var(--primary); text-decoration: none; }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+.sidebar {
+    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+    max-height: calc(100vh - 2rem); overflow-y: auto;
+}
+/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
+.sidebar { padding: .5rem 0; }
+/* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
+.sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
+.sidebar .cat-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+    transition: background .15s;
+}
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+.sidebar .cat-name:hover { color: #c9a961; }
+.sidebar .cat-toggle {
+    background: none; border: 0; color: inherit; cursor: pointer;
+    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
+.sidebar .cat-sub {
+    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+}
+.sidebar .cat-sub[hidden] { display: none; }
+.sidebar .cat-sub a {
+    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+    font-size: .78rem; transition: all .15s; text-decoration: none;
+    border-left: 2px solid transparent;
+}
+.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
+.sidebar .home {
+    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+    font-size: .85rem; font-weight: 600;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-decoration: none;
+}
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+.header-contact a:hover { color: white; }
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
+main section { margin-bottom: 1.5rem; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+main p { margin-bottom: 1rem; color: #334155; }
+
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+tr:nth-child(even) { background: #f8fafc; }
+
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+.servicio:hover { border-color: var(--primary); }
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
+
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+details[open] summary::before { content: '− '; }
+summary:hover { background: rgba(0,0,0,0.02); }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
+.cta .whatsapp-btn {
+    display: inline-block; background: #25D366; color: white;
+    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+    margin-bottom: 1.25rem; font-size: 1rem;
+}
+.cta .whatsapp-btn:hover { background: #1eb853; }
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
+.cta .contacto-line a { color: white; text-decoration: underline; }
+
+footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+footer a { color: rgba(255,255,255,0.85); }
+
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+
+@media (max-width: 900px) {
+    .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+    .container { padding: 1rem; }
+}
+</style>
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0F766E"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-top">
+            <div>
+                <div style="display:inline-flex;flex-direction:column;gap:2px;"><span style="font-family:'Cormorant Garamond',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Saskatoon</span><div style="height:3px;width:60%;background:#8B5CF6;border-radius:2px;"></div></div>
+                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Saskatoon, Canada</div>
+            </div>
+            <div class="header-contact">
+                <a href="mailto:contact@geotechnicalengineering.xyz">contact@geotechnicalengineering.xyz</a>
+            </div>
+        </div>
+        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Home</a></li><li>›</li><li>Geophysics</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Electrical Resistivity and VES Surveys in Saskatoon</li></ol></nav>
+        <h1>Electrical Resistivity and VES Surveys in Saskatoon</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="content-area">
+        <aside class="sidebar">
+            <nav><a href="index.html" class="home">Home</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="/investigation/" class="cat-name">Investigation</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Investigation"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">In-Situ Testing</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ Testing"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="cat-item" data-cat="laboratory"><div class="cat-row"><a href="/laboratory/" class="cat-name">Laboratory</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratory"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/atterberg-limits/">Atterberg limits</a><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a></div></div><div class="cat-item" data-cat="foundations"><div class="cat-row"><a href="/foundations/" class="cat-name">Foundations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Foundations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/piles/">Pile foundation design</a></div></div><div class="cat-item" data-cat="slopes"><div class="cat-row"><a href="/slopes/" class="cat-name">Slopes & Walls</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Slopes & Walls"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/anchors/">Active/passive anchor design</a><a href="/retaining-walls/">Retaining wall design</a><a href="/slope-stability/">Slope stability analysis</a></div></div><div class="cat-item" data-cat="ground-improvement"><div class="cat-row"><a href="/ground-improvement/" class="cat-name">Ground improvement</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ground improvement"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/stone-columns/">Stone column design</a><a href="/vibrocompaction/">Vibrocompaction design</a></div></div><div class="cat-item" data-cat="seismic"><div class="cat-row"><a href="/seismic/" class="cat-name">Seismic</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismic"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/seismic-isolation/">Base isolation seismic design</a><a href="/seismic-microzonation/">Seismic microzonation</a><a href="/liquefaction/">Soil liquefaction analysis</a></div></div><div class="cat-item" data-cat="road-geotechnics"><div class="cat-row"><a href="/road-geotechnics/" class="cat-name">Roadway</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Roadway"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-road/">CBR study for road design</a><a href="/flexible-pavement/">Flexible pavement design</a><a href="/rigid-pavement/">Rigid pavement design</a></div></div><div class="cat-item" data-cat="excavations"><div class="cat-row"><a href="/excavations/" class="cat-name">Underground Excavations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Underground Excavations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/deep-excavations/">Geotechnical design of deep excavations</a><a href="/excavation-monitoring/">Geotechnical excavation monitoring</a></div></div></nav>
+        </aside>
+        <main>
+            <section><p>CSA C22.3 No. 7 requires accurate soil resistivity data for grounding grid design, and in Saskatoon that means dealing with the complex layers of glacial Lake Agassiz deposits. The city sits at 52.1°N latitude, where winter frost penetrates deep into clay tills and summer saturation shifts resistivity profiles seasonally. We run vertical electrical sounding (VES) surveys using Schlumberger arrays with AB/2 spacings from 1.5 m to 120 m, mapping the transition from unsaturated silts over the Battleford Formation into the stiff Floral till. For projects near the South Saskatchewan River, where sand layers create high-resistivity lenses, we often combine VES with <a data-interlink="1" href="/seismic-refraction/">seismic refraction</a> to resolve velocity-resistivity crossovers that neither method alone can untangle.</p></section>
+
+            <blockquote style="border-left:4px solid #8B5CF6;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">A resistivity contrast of just 15 ohm-m between the Upper and Lower tills in Saskatoon often marks the boundary where dewatering changes from manageable to high-flow.</blockquote>
+
+            
+
+            <section>
+                <h2>Technical details of the service in Saskatoon</h2>
+                <div>The field setup uses a Syscal Pro resistivity meter with 48 or 72 electrodes on a multicore cable, injecting square-wave DC current up to 500 V. In Saskatoon’s residential areas like Nutana or Montgomery, space constraints force us to use Wenner arrays with shorter spreads, which still deliver 15 to 25 m of investigation depth. The instrument compensates for the high contact resistance common in dry surface silts during August, automatically stacking readings until the coefficient of variation drops below 2%. Data processing runs through RES2DINV with a damped least-squares inversion, and we calibrate the inverted resistivity sections against borehole logs from our <a href="/spt-drilling/">SPT drilling</a> program to tie ohm-m values to actual grain-size distributions. The resulting 2D profiles show resistivity contrasts as subtle as 5 ohm-m between the Upper and Lower till units, which matters for predicting excavation stability and dewatering rates in deep basements.</div>
+            </section>
+
+            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/resistividad-electrica-sev-1.webp" alt="Electrical Resistivity and VES Surveys in Saskatoon" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Electrical Resistivity and VES Surveys in Saskatoon</figcaption></figure>
+
+            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #8B5CF6;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#8B5CF6;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Array configuration</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Schlumberger, Wenner, dipole-dipole</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Max investigation depth</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">80 m with 240 m spread</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Voltage injection</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Up to 500 V DC</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Data stacking tolerance</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">CV < 2% per reading</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Inversion software</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">RES2DINV / RES3DINV</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Typical Saskatoon till resistivity</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15–35 ohm-m</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Measurement frequency</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">1.2 Hz square wave</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Profile spacing for corridor surveys</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">10–25 m line separation</td></tr></tbody></table></div>
+
+            
+
+            <section>
+                <h2>Typical technical challenges in Saskatoon</h2>
+                <p>The most common mistake we see in Saskatoon is designers using a single resistivity value for the entire site when the stratigraphy changes laterally within 20 m. Glacial lake plains are not uniform: a thin sand interbed at 6 m depth can drop resistivity from 30 ohm-m to 18 ohm-m, completely altering the cathodic protection requirements for buried steel. One contractor we worked with in the Stonebridge development ignored a low-resistivity pocket mapped by our VES survey, installed standard zinc anodes, and had to excavate the gas line within two years due to accelerated corrosion. The cost of that re-excavation was ten times the survey price. For grounding grid design in substations, IEEE 80 explicitly requires multi-layer soil models derived from VES data, and SaskPower will reject any design that uses assumed values instead of measured resistivity profiles. In the silty clays east of Circle Drive, seasonal moisture cycling creates a surface layer with resistivity 40% lower in May than in September. Our surveys account for that by running two seasonal measurements and providing wet-dry envelope models.</p>
+            </section>
+
+            
+    <section class="block mid-cta" style="padding:2rem 0">
+      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
+        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
+        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
+        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnicalengineering.xyz" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnicalengineering.xyz</a></div>
+      </div>
+    </section>
+
+            <div class="normas">
+                <strong>Applicable standards:</strong> ASTM G57-20 — Field Measurement of Soil Resistivity, IEEE 80-2013 — Substation Grounding, CSA C22.3 No. 7-20 — Underground Lines
+            </div>
+
+            <section>
+                <h2>Our services</h2>
+                <p>Our Saskatoon electrical resistivity program covers everything from pre-design reconnaissance to post-construction verification. Each survey is tailored to the specific depth target and site access conditions.</p>
+                <style>.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover{border-color:#8B5CF6;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover h3{color:#8B5CF6}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#8B5CF6;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}</style><div class="servicios-grid"><div class="servicio"><h3>VES for grounding grid design</h3><p>Schlumberger vertical electrical sounding at substation sites, with multi-layer soil resistivity models calibrated to IEEE 80. We deliver apparent resistivity curves and 2-layer / 4-layer inversion models ready for SaskPower submission.</p></div><div class="servicio"><h3>2D resistivity profiling for pipeline corridors</h3><p>Dipole-dipole or Wenner arrays along proposed utility alignments, mapping soil corrosivity zones. Profiles identify aggressive low-resistivity pockets in glacial tills that drive anode bed sizing and coating specifications.</p></div></div>
+            </section>
+
+            <section>
+                <h2>Frequently asked questions</h2>
+                <details><summary>How deep can a VES survey investigate in Saskatoon's glacial soils?</summary><p>With a Schlumberger array and a maximum AB/2 spacing of 120 m, we reliably reach 70 to 80 m depth in the clay tills south of the river. The practical limit depends on site dimensions, because you need 3 to 5 times the target depth in clear linear space. In tight urban lots we cap investigation at about 25 m using Wenner arrays.</p></details><details><summary>What does an electrical resistivity survey cost for a typical Saskatoon building site?</summary><p>For a standard VES survey with 3 to 5 soundings across a residential or small commercial lot, budgets range from CA$910 to CA$1,440 depending on array type, number of expansion points, and whether we need to clear vegetation or work around buried utilities.</p></details><details><summary>How do you calibrate resistivity data to actual soil types?</summary><p>We tie every survey to at least one calibration point, preferably a borehole or test pit with logged stratigraphy. The resistivity values are then correlated to grain size and moisture content using the site-specific relationship, rather than applying generic ranges from the literature, which can be off by 50% in Saskatoon's mixed tills.</p></details><details><summary>Does frozen ground affect the resistivity readings?</summary><p>Significantly. Ice is a poor conductor, so frozen surface silts can read above 200 ohm-m while the same material at 10°C reads 25 ohm-m. We run surveys between May and October whenever possible. If a winter survey is unavoidable, we use deeper electrode burial below the frost line and apply temperature correction factors per ASTM G57.</p></details><details><summary>What deliverables do you provide after the survey?</summary><p>The standard package includes raw apparent resistivity data in digital format, inverted 2D resistivity sections with RMS error statistics, a multi-layer soil model for grounding design, and a technical memo summarizing interpreted stratigraphy and corrosivity classification. We can also provide native RES2DINV files if your engineer wants to run alternative inversions.</p></details>
+            </section>
+
+            <section>
+                <h2>Coverage in Saskatoon</h2>
+                <link rel="stylesheet" href="/css/leaflet.css"/>
+                <div id="mapa-ciudad"></div>
+                <script src="/js/leaflet.js"></script>
+                <script>
+                    var map = L.map('mapa-ciudad').setView([52.1318,-106.6608], 12);
+                    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);
+                    L.circle([52.1318,-106.6608],{radius:3000,color:'#8B5CF6',fillColor:'#A78BFA',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Saskatoon');
+                </script>
+            </section>
+        </main>
+    </div>
+</div>
+
+<footer style="background:#09090B;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Saskatoon, Canada · <a href="mailto:contact@geotechnicalengineering.xyz" style="color:#FFF;text-decoration:underline">contact@geotechnicalengineering.xyz</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-05-01" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-05-01</div></footer>
+
+<script>
+// Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
+document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.cat-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    var item = btn.closest('.cat-item');
+    if (!item) return;
+    var sub = item.querySelector('.cat-sub');
+    if (!sub) return;
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+    if (open) {
+        sub.setAttribute('hidden', '');
+    } else {
+        sub.removeAttribute('hidden');
+    }
+});
+</script>
+</body>
+</html>
